@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&family=Montserrat:wght@300;600&family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 73px;
+  border-bottom: 1px solid #e5e9f2;
+}
+
+.header-container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 40px;
+}
+
+img {
+  display: block;
+}
+
+.nav {
+}
+
+.nav a {
+  padding-right: 32px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #18191f;
+  text-decoration: none;
+}
+
+.nav a:last-child {
+  margin-right: 0;
+}
+
+.nav a:hover {
+  color: lightslategray;
+}
+
+.appstore {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.appstore a {
+  margin-right: 12px;
+}
+
+.appstore a:last-child {
+  margin-right: 0;
+}
+
+/* Main */
+
+.main {
+}
+
+.main-container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 197px;
+  padding-bottom: 917px;
+}
+
+.main-content {
+  width: 540px;
+  line-height: 1.78;
+  font-size: 18px;
+}
+
+.main-header {
+  margin-bottom: 16px;
+  margin-top: 0;
+  font-weight: 800;
+  line-height: 1.36;
+  font-size: 72px;
+  color: #18191f;
+}
+
+.main-text {
+  margin-bottom: 32px;
+}
+
+.main-text p {
+  font-size: 18px;
+  line-height: 1.78;
+}
+
+.main-btn {
+  display: inline-block;
+  height: 62px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background: #8c30f5;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 62px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-btn:hover {
+  color: lightslategray;
+  opacity: 0.8;
+}
+
+.main-img {
+}
+
+/* Footer */
+
+.footer {
+  align-items: center;
+  display: flex;
+  height: 72px;
+  background-color: #0b0d17;
+  color: #d9dbe1;
+}
+
+.footer-container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-copyright {
+  font-size: 14px;
+}
+
+.footer-copyright p {
+  margin: 0;
+}
+
+.footer-socials {
+  display: flex;
+}
+
+.footer-socials a {
+  margin-left: 16px;
+}
